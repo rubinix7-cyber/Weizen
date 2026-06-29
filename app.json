@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Weizen oder Spreu",
+    "slug": "weizen-oder-spreu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5E6C8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.weizen.oderespreu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F5E6C8"
+      },
+      "package": "com.weizen.oderespreu"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "weizen",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#D4A017",
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}
